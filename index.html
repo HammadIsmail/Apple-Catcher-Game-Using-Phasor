@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Catcher</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Animated background particles -->
+    <div class="background-particles" id="particles"></div>
+
+    <header>
+      <h1>🍎 Apple Catcher</h1>
+    </header>
+
+    <main>
+      <canvas id="gameCanvas" width="500" height="500"></canvas>
+      
+      <div id="gameStartDiv" class="gameUI">
+        <h1>🍎 Apple Catcher</h1>
+        <p>🎯 Catch the falling apples in 60 seconds!</p>
+        <p>🎮 Use ← → arrow keys to move your basket</p>
+        <p>🏆 Score 10+ points to win!</p>
+        <button id="startGameBtn" class="game-button">🚀 Start Game</button>
+      </div>
+
+      <div id="gameOverDiv" class="gameUI">
+        <h1>🎮 Game Over!</h1>
+        <h2>You <span id="gameWinLoseSpan"></span></h2>
+        <p>Your final score is: <span id="finalScore">0</span></p>
+        <p id="scoreMessage"></p>
+        <button id="restartGameBtn" class="game-button">🔄 Play Again</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Apple Catcher. All rights reserved. Made with ❤️</p>
+    </footer>
+
+    <script src="src/ui-effects.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
