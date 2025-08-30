@@ -210,7 +210,5 @@ We welcome contributions! Here's how you can help:
 
 - **[Phaser.js](https://phaser.io/)** - Amazing game framework
 - **[Google Fonts](https://fonts.google.com/)** - Fredoka font family
-- **Game art assets** - [Source of your assets]
-- **Sound effects** - [Source of your audio files]
 - **Inspiration** - Classic arcade-style catching games
 
